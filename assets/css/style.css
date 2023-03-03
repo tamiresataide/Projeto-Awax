@@ -79,6 +79,7 @@ nav ul{
 
 .banner .slidearea{
    display: flex;
+   flex-direction: column;
    height: 100%;
    align-items: center;
    justify-content: center;
@@ -93,4 +94,52 @@ nav ul{
 
 .banner .slidearea h1 span{
    color: #B28756;
+}
+
+.banner .slidearea h2{
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 16px;
+   margin: 10px 0px;
+}
+
+.banner .slidearea a{
+   display: block;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 12px;
+   margin: 20px 0px;
+   padding: 10px 40px;
+   color: #FFF;
+
+   background-color: #B28756;
+   border-radius: 5rem;
+}
+
+.banner .slidearea a:hover{
+   filter: brightness(.8);
+}
+
+.banner .sliders-pointers{
+   width: 100vw;
+   height: 20px;
+   position: absolute;
+   margin-top: -50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.banner .pointer{
+   height: 15px;
+   width: 15px;
+   border: 2px solid #B28756;
+   border-radius: 2rem;
+   margin: 0 5px;
+   cursor: pointer;
+}
+
+.banner .pointer.active{
+   background-color: #B28756;
 }
