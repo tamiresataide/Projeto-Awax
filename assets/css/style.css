@@ -108,12 +108,12 @@ nav ul{
    margin: 10px 0px;
 }
 
-.banner .slidearea a{
-   display: block;
+a.button{
+   display: inline-block;
    text-transform: uppercase;
    text-decoration: none;
    font-weight: 600;
-   font-size: 12px;
+   font-size: 9px;
    margin: 20px 0px;
    padding: 10px 40px;
    color: #FFF;
@@ -122,7 +122,7 @@ nav ul{
    border-radius: 5rem;
 }
 
-.banner .slidearea a:hover{
+a.button:hover{
    filter: brightness(.8);
 }
 
@@ -197,3 +197,28 @@ nav ul{
 
 
 
+.section-aboutus{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin:0 50px;
+}
+
+.section-aboutus--left{
+   flex:1;
+   margin-right: 30px;
+}
+
+.section-aboutus--right{
+   width: 400px;
+}
+
+.section-aboutus--right img{
+   width: 380px;
+   box-shadow: 0 5px 10px #333;
+   text-align: center;
+}
+
+.section-aboutus--left p{
+   line-height: 25px;
+}
