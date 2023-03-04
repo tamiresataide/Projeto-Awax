@@ -5,6 +5,11 @@
    padding: 0px;
 }
 
+body{
+   font-size: 13px;
+   overflow-x: hidden;
+}
+
 header{
    background-color: #000;
    height: 100px;
@@ -143,3 +148,52 @@ nav ul{
 .banner .pointer.active{
    background-color: #B28756;
 }
+
+.default{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.default .section-title, .default .section-desc{
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.default .section-title{
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.default .section-desc{
+   font-size: 11px;
+   font-weight: 600;
+   color: #AAA;
+   margin: 10px 0 40px 0;
+}
+
+.default .section-body{
+   margin: auto;
+   max-width: 1140px;
+}
+
+.default.light{
+   background-color: #F7F7F7;
+}
+
+.default.light .section-title, .default.light .section-body{
+   color: #000;
+}
+
+.default.dark{
+   background-color: #000;
+}
+
+.default.dark .section-title, .default.dark .section-body{
+   color: #FFF;
+}
+
+
+
+
+
+
